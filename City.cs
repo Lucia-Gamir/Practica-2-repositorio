@@ -7,20 +7,33 @@ using System.Threading.Tasks;
 
 namespace Practice1
 {
-    class City
+    class City: IMessageWritter
     {
         private PoliceStation policeStation;
         private List<Taxi> taxiLicenses;
 
-        void RegisterTaxiLicense(Taxi taxi)
+        public City(PoliceStation policeStation)
+        {
+            this.policeStation = policeStation;
+            this.taxiLicenses = new List<Taxi>();
+        }
+           
+
+        public void RegisterTaxiLicense(Taxi taxi)
         {
             taxiLicenses.Add(taxi);
+            Console.WriteLine(taxi.WriteMessage("Registered in City"));
         }
 
-        void RemoveTaxiLicense(Taxi taxi)
+        public void RemoveTaxiLicense(Taxi taxi)
         {
             taxiLicenses.Remove(taxi);
+            Console.WriteLine(taxi.WriteMessage("Removed from City"));
         }
 
+        public string WriteMessage(string message)
+        {
+            return $"City: {message}";
+        }
     }
 }

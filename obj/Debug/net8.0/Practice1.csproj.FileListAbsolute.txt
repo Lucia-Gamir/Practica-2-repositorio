@@ -19,10 +19,31 @@ C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\
 C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 1\Solución\obj\Debug\net8.0\Practice1.dll
 C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 1\Solución\obj\Debug\net8.0\refint\Practice1.dll
 C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 1\Solución\obj\Debug\net8.0\Practice1.pdb
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.dll
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\refint\Practice1.dll
-C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version 1\obj\Debug\net8.0\Practice1.pdb
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\refint\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.pdb
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\bin\Debug\net8.0\Practice1.exe
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\bin\Debug\net8.0\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\bin\Debug\net8.0\Practice1.pdb
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2\obj\Debug\net8.0\ref\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\bin\Debug\net8.0\Practice1.exe
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\bin\Debug\net8.0\Practice1.deps.json
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\bin\Debug\net8.0\Practice1.runtimeconfig.json
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\bin\Debug\net8.0\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\bin\Debug\net8.0\Practice1.pdb
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.AssemblyInfoInputs.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.AssemblyInfo.cs
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\refint\Practice1.dll
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.pdb
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\Practice1.genruntimeconfig.cache
+C:\Users\lucia\OneDrive - Universidad Pontificia Comillas\iMAT\TERCERO\CUATRI 1\Paradigmas y técnicas de programación\Práctica 2\Practica 2 version final\obj\Debug\net8.0\ref\Practice1.dll

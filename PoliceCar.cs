@@ -1,32 +1,53 @@
-﻿namespace Practice1
+﻿using System.ComponentModel.Design;
+
+namespace Practice1
 {
-    class PoliceCar : Vehicle
+    class PoliceCar : PlateVehicle
     {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car"; 
         private bool isPatrolling;
-        private SpeedRadar speedRadar;
+        private SpeedRadar? speedRadar;
         private bool chasingVehicle;
         private PoliceStation policeStation;
 
-        public PoliceCar(string plate, PoliceStation policeStation) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, bool radar, PoliceStation policeStation) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
-            this.policeStation = policeStation;
-        }
-
-        public void UseRadar(Vehicle vehicle)
-        {
-            if (isPatrolling)
+            if (radar)
             {
-                speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                speedRadar = new SpeedRadar();
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                speedRadar = null;
+            }
+
+            this.policeStation = policeStation;
+        }
+
+        public void UseRadar(PlateVehicle vehicle)
+        {
+            if (speedRadar != null)
+            {
+                if (isPatrolling)
+                {
+                    speedRadar.TriggerRadar(vehicle);
+                    string meassurement = speedRadar.GetLastReading();
+                    Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                    if (speedRadar.IsAboveLimit())
+                    {
+                        StartChasing(vehicle.GetPlate());
+                    }
+                }
+                else
+                {
+                    Console.WriteLine(WriteMessage($"has no active radar."));
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage($"has no radar."));
             }
         }
 
@@ -63,36 +84,47 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+            else
+            {
+                Console.WriteLine(WriteMessage("has no radar. "));
             }
         }
 
 
         public void ActivateAlert(string vehiclePlate)
         {
-            policeStation.ActivateAlert(vehiclePlate);
+            policeStation.ActivateAlert(vehiclePlate, this.GetPlate());
         }
 
         public void StartChasing(string vehiclePlate, bool stationNotified = false)
         {
+            chasingVehicle = true;
+            Console.WriteLine(WriteMessage($"Started chasing vehicle {vehiclePlate}. "));
             if (!stationNotified)
             {
+                Console.WriteLine(WriteMessage($"Activated alarm. "));
                 ActivateAlert(vehiclePlate);
             }
-            chasingVehicle = true;
         }
 
         public void StopChasing()
         { 
             chasingVehicle = false; 
+            Console.WriteLine(WriteMessage($"Stopped chasing. "));
         }
 
         public void DeActivateAlert()
         { 
-            policeStation.DeActivateAlert(); 
+            policeStation.DeActivateAlert();
+            Console.WriteLine(WriteMessage($"Deactivated alert. "));
         }
     }
 }

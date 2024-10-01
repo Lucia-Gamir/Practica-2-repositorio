@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version 1\\Practice1.csproj",
+      "projectUniqueName": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version final\\Practice1.csproj",
       "projectName": "Practice1",
-      "projectPath": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version 1\\Practice1.csproj",
+      "projectPath": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version final\\Practice1.csproj",
       "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version 1\\obj\\",
+      "outputPath": "C:\\Users\\lucia\\OneDrive - Universidad Pontificia Comillas\\iMAT\\TERCERO\\CUATRI 1\\Paradigmas y técnicas de programación\\Práctica 2\\Practica 2 version final\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
