@@ -10,8 +10,9 @@
             Taxi taxi1 = new Taxi("0001 AAA");
             Taxi taxi2 = new Taxi("0002 BBB");
             Taxi taxi3 = new Taxi("0003 CCC");
+            Scooter scooter = new Scooter();
 
-            PoliceCar policeCar1 = new PoliceCar("0001 CNP", true, policeStation );
+            PoliceCar policeCar1 = new PoliceCar("0001 CNP", true, policeStation);
             PoliceCar policeCar2 = new PoliceCar("0002 CNP", true, policeStation);
             PoliceCar policeCar3 = new PoliceCar("0003 CNP", false, policeStation);
             policeStation.RegisterCar(policeCar1);
@@ -19,6 +20,7 @@
             policeStation.RegisterCar(policeCar3);
 
             Console.WriteLine(city.WriteMessage("Created"));
+            Console.WriteLine(scooter.WriteMessage("Created"));
             Console.WriteLine(policeStation.WriteMessage("Created"));
             Console.WriteLine(taxi1.WriteMessage("Created"));
             Console.WriteLine(taxi2.WriteMessage("Created"));

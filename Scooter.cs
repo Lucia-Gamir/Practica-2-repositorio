@@ -8,7 +8,11 @@ namespace Practice1
 {
     internal class Scooter: Vehicle
     {
-        public Scooter(string typeOfVehicle) : base(typeOfVehicle) { }
+        private static string typeOfVehicle = "Scooter";
+        public Scooter() : base(typeOfVehicle) 
+        {
+
+        }
 
     }
 }
